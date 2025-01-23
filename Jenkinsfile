@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/javahometech/ai-leads'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/javahometech/ai-leads'pavan
             }
         }
         stage("Maven Build"){
